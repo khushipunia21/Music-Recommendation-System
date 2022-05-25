@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<h1>My First Heading</h1>
+
+<p>Enter your Favourite song.</p>
+<body>
+    <form action="{{url_for('recommend')}}" method="POST">
+        <label for="song">Song: </label>
+        <input type="text" id="Song" name="song" placeholder="eg: Born 2 Live" value=""><br>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
