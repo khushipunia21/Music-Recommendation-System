@@ -54,6 +54,8 @@ The user is allowed to enter a song name and change the values of instrumentalne
 - Frontend: 
 - Backend: ![alt_text](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)  ![](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
+- <img src="https://camo.githubusercontent.com/345408f1cbbee25baa3f4d591d7d5a15ad6fe743dc8ef0e282a74847aef61928/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46726f6e742d2d656e642d52656163742532304a532532432532304d6174657269616c2d2d55492d626c756576696f6c6574" alt="Front-end" data-canonical-src="https://img.shields.io/badge/Front--end-React%20JS%2C%20Material--UI-blueviolet" style="max-width: 100%;">
+
 ## Getting Started
 
 ### Prerequisites
