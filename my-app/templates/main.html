@@ -4,11 +4,11 @@
         <meta name="viewport" content="with=device-width,initial-scale=1.0">
         <title>My app</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}">
-        <!-- <link rel="stylesheet" href="C:/Users/DELL/Desktop/my-project/my-app/flask/static/style.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/global/global-b9b1d5e5124eb38e36b0ff310bd20d9c585366e15aeac445af6d716d22b0e9a5.css" /> -->
-        <!-- <link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/page/page-be21d7391d3537792a8c64a95ec81bcdb3dddc035a018c9ffab6e659e736bf1f.css" /> -->
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
         <section class="bg">
@@ -25,33 +25,58 @@
         <div class="text-box">
             <h1>Music Recommendation App</h1>
             <p></p>
-            <a href="" class="hero-btn">Let's Go</a>
         </div>
         </section>
-        <section class="slogan">
-            <blockquote>
-                <img src='https://cdn.quotesgram.com/img/81/92/956303497-Headphones-Quote-HD.jpg'>
-                 </blockquote>
-        </section>
-        <section class="about">
-            <h1>About</h1>
-            <p>About the App and features</p>
-            <div class="row">
-                <div class="feature">
-                    <h3>Feature 1</h3>
-                    <p>Recommendations on the basis of your favourite song</p>
-                </div>
-                <div class="feature">
-                    <h3>Feature 2</h3>
-                    <p>Recommendations on the bais of what poeple with similar music taste like you are listening to</p>
-                </div>
-                <div class="feature">
-                    <h3>Feature 3</h3>
-                    <p>Customize your Music playlist according to your own choice by changing the values of acousticness ,danceability of song and instrumentalness</p>
-                </div>
-            </div>
-        </section>
+<section>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <img src="{{ url_for('static', filename='images/music1.svg') }}">
+        </div>
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">1</h2><br>
+          <p class="lead">We know how much you love Music and everyone has a favourite song.Wouldn't it be great if you get tons of other songs just like your favourite pick. </p>
+        </div>
+      </div>
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">2</h2><br>
+          <p class="lead">Accurate recommendations based on what you and people around you are listening to this week </p>
+        </div>
+      </div>
+      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <img src="{{ url_for('static', filename='images/music2.svg') }}">
+        </div>
+      </div>
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <img src="{{ url_for('static', filename='images/music3.svg') }}">
+        </div>
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">3</h2><br>
+          <p class="lead">Finding your type of music has never been more easy. Customize your Music playlist according to your own choice by changing the values of acousticness ,danceability of song and instrumentalness.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  </section>
 
+
+
+
+
+
+<!-- contact -->
+<div class="footer">
         <section id="contact">
   
             <h1 class="section-header">Contact</h1>
@@ -120,15 +145,7 @@
                 </div>
               
             </div>
-            
-          </section>  
-
-                  
-
-     
-
-    
-    
-    
+          </section> 
+      </div> 
 </body>
 </html>
