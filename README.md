@@ -52,6 +52,7 @@ The user is allowed to enter a song name and change the values of instrumentalne
 ### Built with
 - Machine Learning: ![alt_text](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 - Frontend: 
+- Backend: ![alt_text](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)  ![](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 ## Getting Started
 
