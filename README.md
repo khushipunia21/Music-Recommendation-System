@@ -61,7 +61,7 @@ An efficient music recommender system is necessary in the interest of both music
 
 Algorithm 1:
 
-A dataset of songs with values of various features such as 'danceability', 'energy', 'key', 'loudness', 'acousticness', 'instrumentalness', 'liveness', 'valence',etc. was collected. Pre-processing of data was done and using K-Nearest Neighbors algorithm, most similar songs were collected and sorted based on their distance from the input song. Lesser the distance more is the similarity.
+A dataset of songs with values of various features such as 'danceability', 'energy', 'key', 'loudness', 'acousticness', 'instrumentalness', 'liveness', 'valence',etc. was collected. Pre-processing of data was done and using K-Nearest Neighbors algorithm, most similar songs were collected and sorted based on their distance from the input song. Smaller the distance more is the similarity.
 
 ![App Screenshot](/screenshots/algo1.jpg)
 
