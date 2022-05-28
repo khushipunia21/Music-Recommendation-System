@@ -1,38 +1,11 @@
 from initialise import*
-from spotify_api import get_urls
+from spotify_api import*
 from weekly import *
 
+#importing the model
 model=KNeighborsClassifier()
-try:
-    AUTH_URL = "https://accounts.spotify.com/api/token"
 
-    auth_response = requests.post(AUTH_URL, {
-        'grant_type': 'client_credentials',
-        'client_id': "aba68a7c20a14bd89fea91da58bde342",
-        'client_secret': "587a8071c09e446e9d857154ef83c95c",
-    })
-
-    auth_response_data = auth_response.json()
-except Exception as e:
-    print("error in auth")
-    print(e)
-
-# save the access token
-
-try:
-    access_token = auth_response_data['access_token']
-
-    headers = {
-        'Authorization': 'Bearer {token}'.format(token=access_token)
-    }
-
-
-    BASE_URL = 'https://api.spotify.com/v1/'
-except Exception as e:
-    print("error getting access token")
-    print(e)
-
-
+#flask routes
 app=Flask(__name__)
 
 @app.route('/')
