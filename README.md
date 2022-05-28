@@ -68,7 +68,7 @@ A dataset of songs with values of various features such as 'danceability', 'ener
 
 Algorithm 2: 
 
-It involved analysing the playlist of our user and other users playlist as well in order to find the correlation between different user's music taste. The songs are then picked from most similar users and sorted according to the frequency of play of these songs by these users.
+It involved analysing the playlist of our user and other users playlist as well in order to find the correlation between different user's music taste. The songs are then picked from most similar users and sorted according to the frequency of the song played by these users.
 
 ![App Screenshot](/screenshots/algo2.jpg)
 
@@ -147,13 +147,13 @@ Discover Weekly Playlist Page. Click on explore to get the playlist.
 
 ## Future Scope
 
-- Modifying recommendations by analysing the pattern of user's music choice at different times of the day.For eg: Analysing type of music listened in the day time,suring night etc.
-- Recommending users with similar taste of music and allowing the poeple to conect with each other via tha app.
+- Modifying recommendations by analysing the pattern of user's music choice at different times of the day.For eg: Analysing type of music listened in the day time,during the night etc.
+- Recommending users with similar taste of music and allowing the poeple to connect with each other via tha app.
 - Feature of explicit feedback of user could be incorporated in the app.
 
 ## Challenges Faced
 
-- Absence of appropriate dataset for creating the hybrid model of recommendation system that can take into consideration mutiple features altogether.
+- Absence of appropriate dataset for creating the hybrid model of recommendation system that can combine mutiple features altogether.
 - Due to memory and processing power limitations, I could only experiment with a fraction of whole available dataset. 
 
 ## Resources Used
