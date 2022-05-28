@@ -6,35 +6,45 @@ Music Recommendation system recommends music by learning the user's preference.M
 
 
 ## Table of Contents
-<ul>
+<ol dir="auto">
+<li>
   <a href="#Motivation">1. Motivation</a>
-</ul>  
-<ul>
+</li>  
+<li>
   <a href="#Algorithm">2. Algorithm</a>
-</ul>  
-<ul>
+</li>  
+<li>
   <a href="#About the Project"><3. About the Project</a>
+    <ul dir="auto">
     <li>
       <a href="#Salient Features">Salient Features</a>
+      </li>
+      <li>
       <a href="#Built With"> Built With</a>
-    </li>
+      </li>
     </ul>
-  <ul>
+    </li>
+  <li>
     <a href="#Getting Started">4. Getting Started</a>
+    <ul dir="auto">
     <li>
       <a href="#Prerequisites">Prerequisites</a>
+      </li>
+     <li>
       <a href="#Navigating through the App">Navigating through the App</a>
      </li>
    </ul>
-   <ul>
+   </li>
+   <li>
      <a href="#Future Scope">5. Future Scope</a>
-   </ul>
-    <ul>
+   </li>
+    <li>
       <a href="#Challenges Faced">6. Challenges Faced</a>
-     </ul>
-    <ul>
+     </li>
+    <li>
       <a href="#Resources Used">7. Resources Used</a>
-  </ul>
+  </li>
+  </ol>
         
   
   
