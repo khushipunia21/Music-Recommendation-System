@@ -4,7 +4,7 @@ from spotify_api import *
 my_id="b80344d063b5ccb3212f76538f3d9e43d87dca9e"
 
 def weekly_rec(inp_id):
-    df=pd.read_csv('C:/Users/DELL/Downloads/Book1.csv')
+    df=pd.read_csv('/dataset/Book1.csv')
     #Recommending playlist for the user : 
     #Calculating playlist of user
     id=inp_id
