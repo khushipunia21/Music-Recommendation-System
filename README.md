@@ -50,7 +50,8 @@ The user is allowed to enter a song name and change the values of instrumentalne
 - Pause tha audio preview with a double click on the cover image of the track.
 
 ### Built with
-
+- Machine Learning: ![alt_text](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+- Frontend: 
 
 ## Getting Started
 
