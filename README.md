@@ -21,16 +21,23 @@ An efficient music recommender system is necessary in the interest of both music
 Algorithm 1:
 
 A dataset of songs with values of various features such as 'danceability', 'energy', 'key', 'loudness', 'acousticness', 'instrumentalness', 'liveness', 'valence',etc. was collected. Pre-processing of data was done and using K-Nearest Neighbors algorithm, most similar songs were collected and sorted based on their distance from the input song. Lesser the distance more is the similarity.
-![App Screenshot](/screenshots/algo2.png)
+
+![App Screenshot](/screenshots/algo1.jpg)
 
 
 Algorithm 2: 
 
 It involved analysing the playlist of our user and other users playlist as well in order to find the correlation between different user's music taste. The songs are then picked from most similar users and sorted according to the frequency of play of these songs by these users.
 
+![App Screenshot](/screenshots/algo2.jpg)
+
+
 Algorithm 3:
 
 The user is allowed to enter a song name and change the values of instrumentalness, danceability and acousticness according to his choice and new set of songs will be predicted keeping in consideration the song input and changed values of different features.
+
+![App Screenshot](/screenshots/algo3.jpg)
+
 
 ## About the Project
 
@@ -70,21 +77,27 @@ The user is allowed to enter a song name and change the values of instrumentalne
 ### Navigating through the App
 
 Home Page
+
 ![App Screenshot](/screenshots/page1.png)
 
 Page describing features of the App
+
 ![App Screenshot](/screenshots/page2.png)
 
 Contact Page
+
 ![App Screenshot](/screenshots/page3.png)
 
 Type your favourite song in the search bar and click on search, 10 recommended songs will be displayed. Change the values of the features using the slidebar and click on go to get the new recommendations.
+
 ![App Screenshot](/screenshots/page4.png)
 
 The Cover images of the tracks of the recommended songs will be displayed
+
 ![App Screenshot](/screenshots/page5.png)
 
 Discover Weekly Playlist Page. Click on explore to get the playlist.
+
 ![App Screenshot](/screenshots/page6.png)
 
 
