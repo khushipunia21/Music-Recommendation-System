@@ -3,10 +3,7 @@ import spotipy
 import json
 import os
 
-# set CLIENT_ID & CLIENT_SECRET as environment vars
-
-# CLIENT_Id = os.environ['CLIENT_ID']
-# CLIENT_SECREt = os.environ['CLIENT_SECRET']
+#set your own client_id and client_secret from your spotify developers profile
 
 try:
     AUTH_URL = "https://accounts.spotify.com/api/token"
