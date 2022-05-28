@@ -8,16 +8,16 @@ Music Recommendation system recommends music by learning the user's preference.M
 ## Table of Contents
 <ol dir="auto">
 <li>
-  <a href="#Motivation">1. Motivation</a>
+  <a href="#Motivation"> Motivation</a>
 </li>  
 <li>
-  <a href="#Algorithm">2. Algorithm</a>
+  <a href="#Algorithm"> Algorithm</a>
 </li>  
 <li>
-  <a href="#About the Project"><3. About the Project</a>
+  <a href="#About the Project"> About the Project</a>
     <ul dir="auto">
     <li>
-      <a href="#Salient Features">Salient Features</a>
+      <a href="#Salient Features"> Salient Features</a>
       </li>
       <li>
       <a href="#Built With"> Built With</a>
@@ -25,24 +25,24 @@ Music Recommendation system recommends music by learning the user's preference.M
     </ul>
     </li>
   <li>
-    <a href="#Getting Started">4. Getting Started</a>
+    <a href="#Getting Started"> Getting Started</a>
     <ul dir="auto">
     <li>
-      <a href="#Prerequisites">Prerequisites</a>
+      <a href="#Prerequisites"> Prerequisites</a>
       </li>
      <li>
-      <a href="#Navigating through the App">Navigating through the App</a>
+      <a href="#Navigating through the App"> Navigating through the App</a>
      </li>
    </ul>
    </li>
    <li>
-     <a href="#Future Scope">5. Future Scope</a>
+     <a href="#Future Scope"> Future Scope</a>
    </li>
     <li>
-      <a href="#Challenges Faced">6. Challenges Faced</a>
+      <a href="#Challenges Faced"> Challenges Faced</a>
      </li>
     <li>
-      <a href="#Resources Used">7. Resources Used</a>
+      <a href="#Resources Used"> Resources Used</a>
   </li>
   </ol>
         
