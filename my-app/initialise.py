@@ -1,43 +1,35 @@
 from flask import Flask,render_template, request
-import pickle
-import sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import warnings
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report,plot_confusion_matrix
 warnings.filterwarnings('ignore')
 import requests
 import spotipy
-import json
-import os
 
-data = pd.read_csv('C:/Users/DELL/Downloads/genres_v2.csv')
-    # print(data)
+data = pd.read_csv('/dataset/genres_v2.csv')
 feat=['danceability','energy','key','loudness','mode','speechiness','acousticness','instrumentalness','liveness','valence','song_name','id','genre']
 tempo=data[feat]
 tempo.dropna(axis=0,inplace=True)
 tempo.reset_index(drop=True, inplace=True)
-    # print(tempo)
-    # input=str(sys.argv[1])
-    # print(input[3])
-    # Selected Columns
 features=['danceability','energy','key','loudness','mode','speechiness','acousticness','instrumentalness','liveness','valence']
 target='id'
-    # X & Y
+# setting X & Y
 X=tempo[features]
 Y=tempo[target]
+#encoding genre(string data) to numeric
 def EncodeY(Y):
     actual_target=np.sort(pd.unique(Y), axis=-1, kind='mergesort')
     Y=LabelEncoder().fit_transform(Y)
     encoded_target=[xi for xi in range(len(actual_target))]
     return Y
 temp=EncodeY(tempo['genre'])
-    #temp
+#inserting genre column in X
 X.insert(10,"genre_en",temp)
 X=X.values
+#splitting X and Y into train and test
 X_train=X[:19519,:]
 X_test=X[19519:,:]
 Y_train=Y[:19519]
